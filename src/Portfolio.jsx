@@ -183,8 +183,8 @@ const Portfolio = () => {
           <h2 className={headingClass}>CONTACT ME</h2>
           <hr style={{ width: '185px' }} className="w3-opacity" />
           <form action="https://formspree.io/f/mojkkbpk" method="POST">
-            <input className="w3-input w3-padding-16" type="text" placeholder="Name" required name="name" />
-            <input className="w3-input w3-padding-16" type="email" placeholder="Email" required name="email" />
+            <input className="w3-input w3-padding-16" type="text" placeholder="Name" required name="name"/>
+            <input className="w3-input w3-padding-16" type="email" placeholder="Email" required name="email" autocomplete="email"/>
             <textarea className="w3-input w3-padding-16 w3-height-64" placeholder="Type your Message here." required name="message"></textarea>
             <button className="w3-button w3-light-grey w3-padding-large w3-section" type="submit">
               SEND MESSAGE <i className="fa fa-paper-plane"></i>
